@@ -1,0 +1,264 @@
+2020-07-15 16:44:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: SEO URL Generator FREE
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <script type="text/javascript"><!--
+LINE: 308
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <script type="text/javascript"><!--
+LINE: 998
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 156
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <script type="text/javascript"><!--
+LINE: 276
+
+FILE: admin/controller/catalog/product.php
+CODE: $data['languages'] = $this->model_localisation_language->getLanguages();
+LINE: 751
+
+FILE: admin/controller/catalog/category.php
+CODE: $data['languages'] = $this->model_localisation_language->getLanguages();
+LINE: 407
+
+FILE: admin/controller/catalog/information.php
+CODE: $data['languages'] = $this->model_localisation_language->getLanguages();
+LINE: 365
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 1357
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 585
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 424
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 468
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2020-07-15 16:45:04 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: SEO URL Generator FREE
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <script type="text/javascript"><!--
+LINE: 308
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <script type="text/javascript"><!--
+LINE: 998
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 156
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <script type="text/javascript"><!--
+LINE: 276
+
+FILE: admin/controller/catalog/product.php
+CODE: $data['languages'] = $this->model_localisation_language->getLanguages();
+LINE: 751
+
+FILE: admin/controller/catalog/category.php
+CODE: $data['languages'] = $this->model_localisation_language->getLanguages();
+LINE: 407
+
+FILE: admin/controller/catalog/information.php
+CODE: $data['languages'] = $this->model_localisation_language->getLanguages();
+LINE: 365
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 1357
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 585
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 424
+CODE: if (utf8_strlen($this->request->post['keyword']) > 0) {
+LINE: 468
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2020-07-15 17:21:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2020-07-15 17:21:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
